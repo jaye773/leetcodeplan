@@ -48,5 +48,5 @@ Route::get('/send-email', function () {
     } catch (Exception $e) {
         echo 'Caught exception: '. $e->getMessage() ."\n";
     }
-    return 'success'
+    return 'success';
 });
