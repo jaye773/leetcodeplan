@@ -34,7 +34,7 @@ Route::get('/send-email', function () {
     $email = new \SendGrid\Mail\Mail(); 
     $email->setFrom("admin@leetcodeplan.com", "Example User");
     $email->setSubject("Sending with SendGrid is Fun");
-    $email->addTo("jfranklin773@gmail.com", "Example User");
+    $email->addTo("peacefulexit@yahoo.com", "Example User");
     $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
     $email->addContent(
         "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
